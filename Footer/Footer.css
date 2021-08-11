@@ -172,6 +172,7 @@ li:hover {
 	color: white;
 	font-size: 20px;
 	padding: 15px 15px;
+	cursor: pointer;
 }
 
 .number {
@@ -197,10 +198,11 @@ li:hover {
 	position: fixed;
 	float: right;
 	bottom: -1px;
-	right: 30px;
+	right: 27px;
 	border: rgb(195, 209, 223) solid 1px;
 	background-color: white;
 	display: none;
+
 }
 
 .chat-title {
