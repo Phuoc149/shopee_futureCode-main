@@ -113,14 +113,14 @@
                 </div>
               </th>
               <th scope="col" class="price">
-                <p>300.000</p>
-                285.400
+                <p style="color: lightslategray">300.000</p>
+                200.000
               </th>
               <th scope="col">
                 <div class="quanlity">
-                  <button>+</button>
-                  <input type="text" value="1" />
-                  <button>-</button>
+                  <button id="btn+">+</button>
+                  <input id="inpput" type="text" value="1" />
+                  <button id="btn-">-</button>
                 </div>
               </th>
               <th
@@ -128,7 +128,7 @@
                 class="money"
                 style="width: 160px !important; text-align: center"
               >
-                <p>285.400</p>
+                <p id="p-money">200.000</p>
               </th>
               <th
                 scope="col"
@@ -171,11 +171,17 @@
 
             <tr>
               <th scope="col" class="buy-btn">
-                <p style="font-size: 16px; color: #222222; line-height: 19px">
-                  Tổng thanh toán (0 sản phẩm):
+                <p
+                  id="total"
+                  style="font-size: 16px; color: #222222; line-height: 19px"
+                >
+                  Tổng thanh toán ( 1 sản phẩm):
                 </p>
-                <p style="font-size: 1.8rem; color: #ee4d2d; margin: 0 5px">
-                  0
+                <p
+                  id="total-money"
+                  style="font-size: 1.8rem; color: #ee4d2d; margin: 0 5px"
+                >
+                  200.000
                 </p>
                 <button
                   style="
