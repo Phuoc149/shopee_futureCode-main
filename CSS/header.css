@@ -16,6 +16,10 @@ body {
 	margin: 0 3%;
 }
 
+.container-top a:hover {
+	color: rgb(226, 213, 213);
+}
+
 .space {
 	width: 34%;
 }
@@ -117,6 +121,7 @@ body a {
 	color: white;
 	font-size: 25px;
 	font-weight: lighter;
+	cursor: pointer;
 }
 
 .offer {

@@ -407,10 +407,15 @@ input {
 
 .header-menu {
 	width: 1347;
-	height: 34px;
+	/* height: 34px; */
 	display: flex;
 	justify-content: baseline;
 	background-color: #ee4d2d;
+}
+
+.header-menu a:hover {
+	color: rgb(226, 213, 213);
+
 }
 
 .menu-left {
@@ -608,6 +613,7 @@ th {
 	justify-content: center;
 	align-items: center;
 	padding-top: 120px;
+	margin-bottom: 10%;
 
 }
 
@@ -784,7 +790,9 @@ th {
 
 
 .bg {
+	height: 100%;
 	background-color: rgb(245, 245, 245);
+	margin-bottom: 2%;
 }
 
 .buy-btn {

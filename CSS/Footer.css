@@ -5,9 +5,10 @@
 }
 
 .footer {
-	padding-top: 20px;
+	padding-top: 2%;
 	width: 1347px;
-	height: 828xpx;
+	height: 828px;
+
 }
 
 .footer hr {
@@ -231,7 +232,7 @@ li:hover {
 	margin: 5px;
 	width: 130px;
 	background-color: rgb(218, 222, 226);
-
+	border: solid 0.25px rgb(195, 209, 223);
 }
 
 
